@@ -9,11 +9,6 @@ FusionLungNet: Multi-scale Fusion Convolution with Refinement Network for Lung C
 ### Network Architecture
 ![image](https://github.com/user-attachments/assets/21a53fc1-5333-4ce3-bcf4-870e414ffe02)
 
-
-
-## Stay Tuned
-Please stay tuned for updates. We will be adding detailed documentation, tutorials, and code examples shortly. In the meantime, feel free to star this repository to get notified when we update it.
-
 ## Contact
 For any questions or inquiries, please contact us at sadjadRezvani@gmail.com.
 
