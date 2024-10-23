@@ -1,10 +1,14 @@
-# FusionLungNet
+FusionLungNet: Multi-scale Fusion Convolution with Refinement Network for Lung CT Image Segmentation
+---
+> This repository is the official PyTorch implementation of the paper "[FusionLungNet: Multi-scale Fusion Convolution with Refinement Network for Lung CT Image Segmentation](https://arxiv.org/pdf/2410.15812)"
 
-## Introduction
-Welcome to the FusionLungNet repository!
+> [Sadjad Rezvani](https://scholar.google.com/citations?user=jxn15pUAAAAJ&hl=en&oi=sra), [Mansoor Fateh](https://scholar.google.com/citations?user=ZHezeMIAAAAJ&hl=en&oi=ao), [Yeganeh Jalali](https://scholar.google.com/citations?user=v2yd2SUAAAAJ) and [Amirreza Fateh](https://scholar.google.com/citations?user=wjNokn4AAAAJ&hl=en&oi=ao)
 
-## Coming Soon
-This repository is currently under construction and will be released soon. We are working hard to bring you the best resources and tools.
+> New lung segmentation methods face difficulties in identifying long-range relationships between image components, reliance on convolution operations that may not capture all critical features, and the complex structures of the lungs. Furthermore, semantic gaps between feature maps can hinder the integration of relevant information, reducing model accuracy. Skip connections can also limit the decoder's access to complete information, resulting in partial information loss during encoding. To overcome these challenges, we propose a hybrid approach using the FusionLungNet network, which has a multi-level structure with key components, including the ResNet-50 encoder, Channel-wise Aggregation Attention (CAA) module, Multi-scale Feature Fusion (MFF) block, Self-Refinement (SR) module, and multiple decoders. The refinement sub-network uses convolutional neural networks for image post-processing to improve quality. Our method employs a combination of loss functions, including SSIM, IOU, and focal loss, to optimize image reconstruction quality. We created and publicly released a new dataset for lung segmentation called [LungSegDB](https://github.com/sadjadrz/Lung-segmentation-dataset), including 1800 CT images from  LIDC-IDRI dataset (dataset version 1) and 700 images from the Chest CT Cancer Images from kaggle dataset (dataset version 2).
+
+### Network Architecture
+![image](https://github.com/user-attachments/assets/2e7c8d11-b5d4-4174-9718-fe60207614a6)
+
 
 ## Stay Tuned
 Please stay tuned for updates. We will be adding detailed documentation, tutorials, and code examples shortly. In the meantime, feel free to star this repository to get notified when we update it.
